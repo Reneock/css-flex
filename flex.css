@@ -1,0 +1,24 @@
+.container{
+	height: 500px;
+	background-color: grey;
+	display: flex;
+	flex-direction: column;
+}
+
+/*flex wrap is used to ensure the container doesnt change its size to fill the main container*/
+
+.container div{
+	height: 200px;
+	width: 200px;
+	background-color: blue;
+	float: left;
+	margin: 10px;
+}
+
+/*justify can help with placing box at left, right or center by using justify content property.
+justify can be used to create space between or around the boxes in the mother container
+nb. display flex must be used in the parent container before all other flex properties follow.*/
+
+/*to bring boxes in the center vertically, you use align-items: center; and to do so horizontally
+you use, justify-content: center;. however if you want the boxes to be in the complete center of
+the other container, then use both properties*/
